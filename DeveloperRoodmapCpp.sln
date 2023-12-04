@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ArithmeticOperators", "Arit
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LogicalOperators", "LogicalOperators\LogicalOperators.vcxproj", "{8DBA7564-04BB-407D-B10A-8A2FBDA9C841}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Loops", "Loops\Loops.vcxproj", "{F15D4C72-0203-4074-B6CB-8DA132B72AE2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -41,6 +43,14 @@ Global
 		{8DBA7564-04BB-407D-B10A-8A2FBDA9C841}.Release|x64.Build.0 = Release|x64
 		{8DBA7564-04BB-407D-B10A-8A2FBDA9C841}.Release|x86.ActiveCfg = Release|Win32
 		{8DBA7564-04BB-407D-B10A-8A2FBDA9C841}.Release|x86.Build.0 = Release|Win32
+		{F15D4C72-0203-4074-B6CB-8DA132B72AE2}.Debug|x64.ActiveCfg = Debug|x64
+		{F15D4C72-0203-4074-B6CB-8DA132B72AE2}.Debug|x64.Build.0 = Debug|x64
+		{F15D4C72-0203-4074-B6CB-8DA132B72AE2}.Debug|x86.ActiveCfg = Debug|Win32
+		{F15D4C72-0203-4074-B6CB-8DA132B72AE2}.Debug|x86.Build.0 = Debug|Win32
+		{F15D4C72-0203-4074-B6CB-8DA132B72AE2}.Release|x64.ActiveCfg = Release|x64
+		{F15D4C72-0203-4074-B6CB-8DA132B72AE2}.Release|x64.Build.0 = Release|x64
+		{F15D4C72-0203-4074-B6CB-8DA132B72AE2}.Release|x86.ActiveCfg = Release|Win32
+		{F15D4C72-0203-4074-B6CB-8DA132B72AE2}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
