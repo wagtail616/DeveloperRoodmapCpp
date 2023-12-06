@@ -25,6 +25,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "StaticTyping", "StaticTypin
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DynamicTyping", "DynamicTyping\DynamicTyping.vcxproj", "{2632F12B-7822-4D01-A743-F929E9BB81E0}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RTTI", "RTTI\RTTI.vcxproj", "{E6BCD0BB-7112-4590-9EE1-6508206EFF84}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -121,6 +123,14 @@ Global
 		{2632F12B-7822-4D01-A743-F929E9BB81E0}.Release|x64.Build.0 = Release|x64
 		{2632F12B-7822-4D01-A743-F929E9BB81E0}.Release|x86.ActiveCfg = Release|Win32
 		{2632F12B-7822-4D01-A743-F929E9BB81E0}.Release|x86.Build.0 = Release|Win32
+		{E6BCD0BB-7112-4590-9EE1-6508206EFF84}.Debug|x64.ActiveCfg = Debug|x64
+		{E6BCD0BB-7112-4590-9EE1-6508206EFF84}.Debug|x64.Build.0 = Debug|x64
+		{E6BCD0BB-7112-4590-9EE1-6508206EFF84}.Debug|x86.ActiveCfg = Debug|Win32
+		{E6BCD0BB-7112-4590-9EE1-6508206EFF84}.Debug|x86.Build.0 = Debug|Win32
+		{E6BCD0BB-7112-4590-9EE1-6508206EFF84}.Release|x64.ActiveCfg = Release|x64
+		{E6BCD0BB-7112-4590-9EE1-6508206EFF84}.Release|x64.Build.0 = Release|x64
+		{E6BCD0BB-7112-4590-9EE1-6508206EFF84}.Release|x86.ActiveCfg = Release|Win32
+		{E6BCD0BB-7112-4590-9EE1-6508206EFF84}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
