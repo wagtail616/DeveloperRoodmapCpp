@@ -35,6 +35,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MemoryModel", "MemoryModel\
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LifetimeofObjects", "LifetimeofObjects\LifetimeofObjects.vcxproj", "{426B49FB-6646-45B7-B9E4-808F17E202FE}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "New_DeleteOparetors", "New_DeleteOparetors\New_DeleteOparetors.vcxproj", "{E8DA5DD2-44A8-462C-81D6-0D97879E7752}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -171,6 +173,14 @@ Global
 		{426B49FB-6646-45B7-B9E4-808F17E202FE}.Release|x64.Build.0 = Release|x64
 		{426B49FB-6646-45B7-B9E4-808F17E202FE}.Release|x86.ActiveCfg = Release|Win32
 		{426B49FB-6646-45B7-B9E4-808F17E202FE}.Release|x86.Build.0 = Release|Win32
+		{E8DA5DD2-44A8-462C-81D6-0D97879E7752}.Debug|x64.ActiveCfg = Debug|x64
+		{E8DA5DD2-44A8-462C-81D6-0D97879E7752}.Debug|x64.Build.0 = Debug|x64
+		{E8DA5DD2-44A8-462C-81D6-0D97879E7752}.Debug|x86.ActiveCfg = Debug|Win32
+		{E8DA5DD2-44A8-462C-81D6-0D97879E7752}.Debug|x86.Build.0 = Debug|Win32
+		{E8DA5DD2-44A8-462C-81D6-0D97879E7752}.Release|x64.ActiveCfg = Release|x64
+		{E8DA5DD2-44A8-462C-81D6-0D97879E7752}.Release|x64.Build.0 = Release|x64
+		{E8DA5DD2-44A8-462C-81D6-0D97879E7752}.Release|x86.ActiveCfg = Release|Win32
+		{E8DA5DD2-44A8-462C-81D6-0D97879E7752}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
