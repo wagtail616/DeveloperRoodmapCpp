@@ -17,7 +17,6 @@ int main() {
 		if (auto sharedFromWeek = weak.lock()) {
 			sharedFromWeek->Dosomething();//オブジェクトを安全に使う
 			std::cout << "Shared uses count:" << sharedFromWeek.use_count() << std::endl;// 2
-
 		}
 	}
 	// shredはスコープ外になり、MyClassオブジェクトは破棄されます。
