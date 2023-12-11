@@ -65,4 +65,10 @@ int main() {
 	myDog.breathe();
 	Cat myCat;
 	myCat.makeSound();
+
+	Animal* animals[2] = { new Dog,new Cat };
+	animals[0]->makeSound();
+	animals[1]->makeSound();
+	delete animals[0];
+	delete animals[1];
 }
