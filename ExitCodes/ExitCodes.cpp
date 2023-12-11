@@ -17,7 +17,9 @@ int main() {
 	}
 	
 	std::cout << "a / b = "<< division(a,b);
+
 	return 0;
-	std::cout << "‚±‚±‚ÍÀs‚³‚ê‚È‚¢" << division(a, b);
+	
+	std::cout << "‚±‚±‚ÍÀs‚³‚ê‚È‚¢";
 
 }
