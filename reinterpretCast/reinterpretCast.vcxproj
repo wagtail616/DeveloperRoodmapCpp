@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{3b0fd846-b7e0-43b3-b8cb-b18f8c17001f}</ProjectGuid>
-    <RootNamespace>DynamicCast</RootNamespace>
+    <ProjectGuid>{52e8824a-2109-4dc5-9057-51a89d9828a3}</ProjectGuid>
+    <RootNamespace>reinterpretCast</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,7 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="DynamicCast.cpp" />
+    <ClCompile Include="reinterpretCast.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
