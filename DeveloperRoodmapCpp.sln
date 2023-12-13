@@ -83,6 +83,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Exception Handling", "Excep
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AccessViolations", "AccessViolations\AccessViolations.vcxproj", "{813E369F-7E5E-4BEC-A7B4-7AA0B072C514}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LanguageConcepts", "LanguageConcepts\LanguageConcepts.vcxproj", "{393637CB-1214-494A-B641-0331A621208E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -411,6 +413,14 @@ Global
 		{813E369F-7E5E-4BEC-A7B4-7AA0B072C514}.Release|x64.Build.0 = Release|x64
 		{813E369F-7E5E-4BEC-A7B4-7AA0B072C514}.Release|x86.ActiveCfg = Release|Win32
 		{813E369F-7E5E-4BEC-A7B4-7AA0B072C514}.Release|x86.Build.0 = Release|Win32
+		{393637CB-1214-494A-B641-0331A621208E}.Debug|x64.ActiveCfg = Debug|x64
+		{393637CB-1214-494A-B641-0331A621208E}.Debug|x64.Build.0 = Debug|x64
+		{393637CB-1214-494A-B641-0331A621208E}.Debug|x86.ActiveCfg = Debug|Win32
+		{393637CB-1214-494A-B641-0331A621208E}.Debug|x86.Build.0 = Debug|Win32
+		{393637CB-1214-494A-B641-0331A621208E}.Release|x64.ActiveCfg = Release|x64
+		{393637CB-1214-494A-B641-0331A621208E}.Release|x64.Build.0 = Release|x64
+		{393637CB-1214-494A-B641-0331A621208E}.Release|x86.ActiveCfg = Release|Win32
+		{393637CB-1214-494A-B641-0331A621208E}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
