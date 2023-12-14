@@ -103,6 +103,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ArgumentDependentLookup", "
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Macros", "Macros\Macros.vcxproj", "{34C830DE-2ABB-4274-99E0-74112CEC7946}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NameMangling", "NameMangling\NameMangling.vcxproj", "{36F4894E-AEDD-4AEC-8471-BD4163786CAE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -511,6 +513,14 @@ Global
 		{34C830DE-2ABB-4274-99E0-74112CEC7946}.Release|x64.Build.0 = Release|x64
 		{34C830DE-2ABB-4274-99E0-74112CEC7946}.Release|x86.ActiveCfg = Release|Win32
 		{34C830DE-2ABB-4274-99E0-74112CEC7946}.Release|x86.Build.0 = Release|Win32
+		{36F4894E-AEDD-4AEC-8471-BD4163786CAE}.Debug|x64.ActiveCfg = Debug|x64
+		{36F4894E-AEDD-4AEC-8471-BD4163786CAE}.Debug|x64.Build.0 = Debug|x64
+		{36F4894E-AEDD-4AEC-8471-BD4163786CAE}.Debug|x86.ActiveCfg = Debug|Win32
+		{36F4894E-AEDD-4AEC-8471-BD4163786CAE}.Debug|x86.Build.0 = Debug|Win32
+		{36F4894E-AEDD-4AEC-8471-BD4163786CAE}.Release|x64.ActiveCfg = Release|x64
+		{36F4894E-AEDD-4AEC-8471-BD4163786CAE}.Release|x64.Build.0 = Release|x64
+		{36F4894E-AEDD-4AEC-8471-BD4163786CAE}.Release|x86.ActiveCfg = Release|Win32
+		{36F4894E-AEDD-4AEC-8471-BD4163786CAE}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
