@@ -42,7 +42,10 @@ int main() {
 	int year = system_clock::to_time_t(now)/y+1970;
 	int ThisYearDays= system_clock::to_time_t(now)%y/d;
 	int month=0;
-	int day=0;;
+	int day=0;
+	int hour=0;
+	int minite=0;
+	int second=0;
 	for (int i = 1; ThisYearDays > 0; i++) {
 		switch (i)
 		{
@@ -72,5 +75,9 @@ int main() {
 		default:return -1;
 		}
 	}
-	std::cout << year << "”N"<<month<<"Œ"<<day<<"“ú";
+	hour = (system_clock::to_time_t(now)/h+9)%24;
+	minite = system_clock::to_time_t(now) / m %60;
+	second = system_clock::to_time_t(now) / s % 60;
+	//“Œ‹‚ÌŠÔ
+	std::cout << year << "”N" << month << "Œ" << day << "“ú" << hour << ""<<minite<<"•ª" << second<<"•b";
 }
