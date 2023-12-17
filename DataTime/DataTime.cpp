@@ -62,7 +62,12 @@ int main() {
 		case 2:
 			month = i;
 			day = ThisYearDays+1;
-			ThisYearDays -= 28;
+			if (year % 4 == 0) {
+				ThisYearDays -= 29;
+			}
+			else {
+				ThisYearDays -= 28;
+			}
 			break;
 		default:return -1;
 		}
