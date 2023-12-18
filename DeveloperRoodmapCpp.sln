@@ -115,6 +115,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DataTime", "DataTime\DataTi
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "STLAlgorithms", "STLAlgorithms\STLAlgorithms.vcxproj", "{6BF7E256-A93C-4AC1-A15E-623018809A8B}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Constatiners", "Constatiners\Constatiners.vcxproj", "{FD75A10B-EFA2-4E8D-B1E7-01713DC7BB1F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -571,6 +573,14 @@ Global
 		{6BF7E256-A93C-4AC1-A15E-623018809A8B}.Release|x64.Build.0 = Release|x64
 		{6BF7E256-A93C-4AC1-A15E-623018809A8B}.Release|x86.ActiveCfg = Release|Win32
 		{6BF7E256-A93C-4AC1-A15E-623018809A8B}.Release|x86.Build.0 = Release|Win32
+		{FD75A10B-EFA2-4E8D-B1E7-01713DC7BB1F}.Debug|x64.ActiveCfg = Debug|x64
+		{FD75A10B-EFA2-4E8D-B1E7-01713DC7BB1F}.Debug|x64.Build.0 = Debug|x64
+		{FD75A10B-EFA2-4E8D-B1E7-01713DC7BB1F}.Debug|x86.ActiveCfg = Debug|Win32
+		{FD75A10B-EFA2-4E8D-B1E7-01713DC7BB1F}.Debug|x86.Build.0 = Debug|Win32
+		{FD75A10B-EFA2-4E8D-B1E7-01713DC7BB1F}.Release|x64.ActiveCfg = Release|x64
+		{FD75A10B-EFA2-4E8D-B1E7-01713DC7BB1F}.Release|x64.Build.0 = Release|x64
+		{FD75A10B-EFA2-4E8D-B1E7-01713DC7BB1F}.Release|x86.ActiveCfg = Release|Win32
+		{FD75A10B-EFA2-4E8D-B1E7-01713DC7BB1F}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
