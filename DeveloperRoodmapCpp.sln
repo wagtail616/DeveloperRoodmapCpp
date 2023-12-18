@@ -113,6 +113,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "iterators", "iterators\iter
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DataTime", "DataTime\DataTime.vcxproj", "{A172E4A6-1A1E-44D7-9952-981F49E7EBCF}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "STLAlgorithms", "STLAlgorithms\STLAlgorithms.vcxproj", "{6BF7E256-A93C-4AC1-A15E-623018809A8B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -561,6 +563,14 @@ Global
 		{A172E4A6-1A1E-44D7-9952-981F49E7EBCF}.Release|x64.Build.0 = Release|x64
 		{A172E4A6-1A1E-44D7-9952-981F49E7EBCF}.Release|x86.ActiveCfg = Release|Win32
 		{A172E4A6-1A1E-44D7-9952-981F49E7EBCF}.Release|x86.Build.0 = Release|Win32
+		{6BF7E256-A93C-4AC1-A15E-623018809A8B}.Debug|x64.ActiveCfg = Debug|x64
+		{6BF7E256-A93C-4AC1-A15E-623018809A8B}.Debug|x64.Build.0 = Debug|x64
+		{6BF7E256-A93C-4AC1-A15E-623018809A8B}.Debug|x86.ActiveCfg = Debug|Win32
+		{6BF7E256-A93C-4AC1-A15E-623018809A8B}.Debug|x86.Build.0 = Debug|Win32
+		{6BF7E256-A93C-4AC1-A15E-623018809A8B}.Release|x64.ActiveCfg = Release|x64
+		{6BF7E256-A93C-4AC1-A15E-623018809A8B}.Release|x64.Build.0 = Release|x64
+		{6BF7E256-A93C-4AC1-A15E-623018809A8B}.Release|x86.ActiveCfg = Release|Win32
+		{6BF7E256-A93C-4AC1-A15E-623018809A8B}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
