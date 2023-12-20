@@ -1,15 +1,15 @@
 #include<iostream>
 
 //テンプレートの特殊化
-//template<typename T>
-//void printData(const T& data) {
-//	std::cout << "General template: " << data << std::endl;
-//}
+template<typename T>
+void printData(const T& data) {
+	std::cout << "General template: " << data << std::endl;
+}
 
 //template <>
-//void printData(const char* const& data) {
-//	std::cout << "Specialized template for const char*: " << data << std::endl;
-//}
+void printData(const char* const& data) {
+	std::cout << "Specialized template for const char*: " << data << std::endl;
+}
 
 //テンプレートの部分的特殊化
 template<typename K,typename V>
@@ -28,12 +28,11 @@ private:
 template <typename T>
 class MyPair<T, int> {
 public:
-	MyPair(T k, int v) :key(k), vlue(v) {
+	MyPair(T k, int v) : key(k), value(v) {}
 
-		void print() const {
-			std::cout << "Partial specialization for int values: key = "
-				<< ",value = " << value << std::endl;
-		}
+	void print() const {
+		std::cout << "Partial specialization for int values: key = "
+			<< ", value = " << value << std::endl;
 	}
 private:
 	T key;
