@@ -131,6 +131,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PartialTemplateSpecializati
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TypeTraits", "TypeTraits\TypeTraits.vcxproj", "{3C9FE52D-6561-49A7-A887-2B9EE303C097}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SFINAE", "SFINAE\SFINAE.vcxproj", "{9F356A51-B54E-4368-8FEB-3635363A7EC7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -651,6 +653,14 @@ Global
 		{3C9FE52D-6561-49A7-A887-2B9EE303C097}.Release|x64.Build.0 = Release|x64
 		{3C9FE52D-6561-49A7-A887-2B9EE303C097}.Release|x86.ActiveCfg = Release|Win32
 		{3C9FE52D-6561-49A7-A887-2B9EE303C097}.Release|x86.Build.0 = Release|Win32
+		{9F356A51-B54E-4368-8FEB-3635363A7EC7}.Debug|x64.ActiveCfg = Debug|x64
+		{9F356A51-B54E-4368-8FEB-3635363A7EC7}.Debug|x64.Build.0 = Debug|x64
+		{9F356A51-B54E-4368-8FEB-3635363A7EC7}.Debug|x86.ActiveCfg = Debug|Win32
+		{9F356A51-B54E-4368-8FEB-3635363A7EC7}.Debug|x86.Build.0 = Debug|Win32
+		{9F356A51-B54E-4368-8FEB-3635363A7EC7}.Release|x64.ActiveCfg = Release|x64
+		{9F356A51-B54E-4368-8FEB-3635363A7EC7}.Release|x64.Build.0 = Release|x64
+		{9F356A51-B54E-4368-8FEB-3635363A7EC7}.Release|x86.ActiveCfg = Release|Win32
+		{9F356A51-B54E-4368-8FEB-3635363A7EC7}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
