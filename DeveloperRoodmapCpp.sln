@@ -135,6 +135,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SFINAE", "SFINAE\SFINAE.vcx
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Idioms", "Idioms\Idioms.vcxproj", "{D6DD68E9-BB9B-4720-9387-B9A346FEEB17}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RAII", "RAII\RAII.vcxproj", "{3499CD6B-CEE5-478B-A954-F6F24E99BBF6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -671,6 +673,14 @@ Global
 		{D6DD68E9-BB9B-4720-9387-B9A346FEEB17}.Release|x64.Build.0 = Release|x64
 		{D6DD68E9-BB9B-4720-9387-B9A346FEEB17}.Release|x86.ActiveCfg = Release|Win32
 		{D6DD68E9-BB9B-4720-9387-B9A346FEEB17}.Release|x86.Build.0 = Release|Win32
+		{3499CD6B-CEE5-478B-A954-F6F24E99BBF6}.Debug|x64.ActiveCfg = Debug|x64
+		{3499CD6B-CEE5-478B-A954-F6F24E99BBF6}.Debug|x64.Build.0 = Debug|x64
+		{3499CD6B-CEE5-478B-A954-F6F24E99BBF6}.Debug|x86.ActiveCfg = Debug|Win32
+		{3499CD6B-CEE5-478B-A954-F6F24E99BBF6}.Debug|x86.Build.0 = Debug|Win32
+		{3499CD6B-CEE5-478B-A954-F6F24E99BBF6}.Release|x64.ActiveCfg = Release|x64
+		{3499CD6B-CEE5-478B-A954-F6F24E99BBF6}.Release|x64.Build.0 = Release|x64
+		{3499CD6B-CEE5-478B-A954-F6F24E99BBF6}.Release|x86.ActiveCfg = Release|Win32
+		{3499CD6B-CEE5-478B-A954-F6F24E99BBF6}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
