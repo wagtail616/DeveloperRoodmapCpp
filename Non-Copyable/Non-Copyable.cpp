@@ -8,6 +8,7 @@ public:
 
 	//コピーアシストコンストラクタも削除
 	NonCopyable& operator=(const NonCopyable&) = delete;
+	//この二つを削除することで明示的にコピー不可を示せる
 };
 class MyClass :private NonCopyable {
 	//MyClassは今はコピー出来ない
